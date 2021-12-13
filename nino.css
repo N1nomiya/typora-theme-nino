@@ -238,7 +238,7 @@
   border-radius: 3px;
   border: 1px solid #dee0e3;
   padding: 10px;
-  background-color: #f5f6f7;
+  background-color: #fafafa;
 }
 #write .CodeMirror div.CodeMirror-cursor {
   border-color: #1f2329;
@@ -283,18 +283,20 @@
   border-color: #c5c5c5;
 }
 #write blockquote {
+  font-style: italic;
   display: block;
   margin-left: 0;
+  padding-bottom: 3px;
   padding-left: 14px;
   border-left: 2px solid #3370ff;
-  color: rgba(31, 35, 41, 0.7);
+  color: rgba(31, 35, 41, 0.6);
 }
 #write code {
   border-radius: 4px;
   margin-left: 2px;
   margin-right: 2px;
   border: 1px solid #dee0e3;
-  background-color: #f5f6f7;
+  background-color: #fafafa;
   word-spacing: normal;
   line-height: 1.6;
   padding: 0 2px;
